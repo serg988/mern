@@ -108,6 +108,19 @@ h3 {
   background: none;
 }
 
+.goal .completed {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.striked {
+  text-decoration: line-through;
+}
+
 .form,
 .content {
   width: 70%;
